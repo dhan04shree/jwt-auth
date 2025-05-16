@@ -9,7 +9,7 @@ const Registration = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post(" http://localhost:3001/api/auth/register", {
+      const response = await axios.post("https://jwt-auth-17ii.onrender.com/api/auth/register", {
         username,
         password,
       });

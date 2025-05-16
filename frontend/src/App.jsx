@@ -1,9 +1,9 @@
 
 import './App.css'
 import Dashboard from "./components/Dashboard"
-import Login from './components/loginForm'
+import Login from './components/LoginForm'
 import Navbar from './components/Navbar'
-import Registration from './components/registration'
+import Registration from './components/Registration'
 import {Route,Routes} from "react-router-dom"
 function App() {
  

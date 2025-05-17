@@ -12,7 +12,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("https://jwt-auth-17ii.onrender.com/api/auth/login", {
+      const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}api/auth/login`, {
         username,
         password,
       });
